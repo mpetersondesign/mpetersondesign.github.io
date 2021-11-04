@@ -177,6 +177,16 @@ div.body_background {
   fill: #fff !important;
 }
 
+div.video_content {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+div.video_content > video {
+  width: 75%;
+  height: 75%;
+}
 section.hero {
   width: 100%;
 }
