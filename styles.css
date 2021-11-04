@@ -177,6 +177,9 @@ div.body_background {
   fill: #fff !important;
 }
 
+section.hero {
+  width: 100%;
+}
 .hero {
   max-width: 100%;
   min-height: 600px;
