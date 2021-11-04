@@ -231,4 +231,11 @@ section.hero {
   section {
     padding: 0;
   }
+
+  h1 {
+    font-size: 5em;
+  }
+  h2 {
+    font-size: 3em;
+  }
 }
