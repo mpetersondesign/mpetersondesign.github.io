@@ -148,7 +148,7 @@ h2 {
 }
 
 div.body_background {
-  width: 1500px;
+  max-width: 1500px;
   background-color: rgba(0, 0, 0, 0.45);
   margin: 0 auto;
 }
@@ -185,7 +185,7 @@ div.video_content {
 
 div.video_content > video {
   width: 75%;
-  height: 75%;
+  height: auto;
 }
 section.hero {
   width: 100%;
