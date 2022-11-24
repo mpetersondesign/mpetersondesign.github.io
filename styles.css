@@ -49,10 +49,27 @@ p a:visited {
   color: violet;
 }
 
+.projectDisplay {
+  align-items: center;
+  vertical-align: middle;
+  align-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.projectBanner {
+  width: 370px;
+  border: 2px white solid;
+  margin: 20px;
+}
+
 p a:hover {
   text-decoration: underline;
 }
 
+h2 a:hover {
+  text-decoration: underline;
+}
 nav {
   position: fixed;
   top: 0;
@@ -117,6 +134,10 @@ nav > ul > li {
 
 nav > ul > li > a {
   color: inherit;
+}
+
+nav > ul > li > a:hover {
+  color: #d13fd1;
 }
 
 h1,
@@ -204,7 +225,7 @@ div.video_content {
 iframe {
   margin: 0 auto;
   width: 100%;
-  height: 900px;
+  min-height: 900px;
 }
 div.image_content {
   display: flex;
